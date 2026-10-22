@@ -1,0 +1,5 @@
+@mixin sp {
+    @media (max-width: 680px) {
+        @content;
+    }
+}
